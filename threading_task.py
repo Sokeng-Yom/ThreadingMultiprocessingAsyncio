@@ -18,7 +18,7 @@ def simulate_io_task(file_name, duration):
 
 def run_io_tasks():
 
-    file_names = ['number1.txt', 'number2.txt', 'number3.txt', 'number4.txt', 'number5.txt']
+    file_names = ['file_number1.txt', 'file_number2.txt', 'file_number3.txt', 'file_number4.txt', 'file_number5.txt']
     duration = 2  
     threads = []
 

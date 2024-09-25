@@ -12,7 +12,7 @@ async def async_write_to_file(filename, data, duration):
 
 async def run_async_tasks(primes):
     
-    filenames = ["number1.txt", "number2.txt", "number3.txt", "number4.txt", "number5.txt"]
+    filenames = ["file_number1.txt", "file_number2.txt", "file_number3.txt", "file_number4.txt", "file_number5.txt"]
     tasks = [] 
     num_files = len(filenames)
     total_primes = len(primes)
